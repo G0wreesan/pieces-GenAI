@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#factList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fact-button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fact-button:hover {
+    background-color: #f0f0f0;
+}
+
+.fact-paragraph {
+    display: none;
+}
+
+.fact-button:hover .fact-paragraph {
+    display: block;
+}
